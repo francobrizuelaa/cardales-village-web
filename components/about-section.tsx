@@ -14,11 +14,11 @@ export function AboutSection() {
       title: "Entorno Natural",
       description: "Amplios espacios verdes, arboleda nativa y diseño paisajístico",
     },
-    {
+    /*{
       icon: Home,
       title: "Lotes Exclusivos",
       description: "Terrenos de 800m² a 2000m² con servicios de primera calidad",
-    },
+    }*/
     {
       icon: Users,
       title: "Comunidad Selecta",
@@ -98,13 +98,13 @@ export function AboutSection() {
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#7C272C]/5 rounded-full blur-3xl" />
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             {features.map((feature, index) => (
               <Card 
                 key={index} 
-                className="border border-stone-200 bg-white/80 backdrop-blur-sm hover:border-[#7C272C]/30 hover:shadow-lg transition-all duration-300 group"
+                className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] border border-stone-200 bg-white/80 backdrop-blur-sm hover:border-[#7C272C]/30 hover:shadow-lg transition-all duration-300 group"
               >
-                <CardContent className="p-8 text-center">
+                <CardContent className="p-8 text-center h-full">
                   <div className="w-16 h-16 bg-[#7C272C]/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#7C272C]/20 transition-colors">
                     <feature.icon className="w-8 h-8 text-[#7C272C]" />
                   </div>

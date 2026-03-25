@@ -54,11 +54,11 @@ export function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="mailto:administracion@cardalesvillage.com.ar"
+                  href="mailto:administracion@club.com.ar"
                   className="flex items-center gap-2 text-sm text-stone-400 hover:text-white transition-colors"
                 >
                   <Mail className="w-4 h-4 flex-shrink-0" />
-                  administracion@cardalesvillage.com.ar
+                  administracion@cardalesvillageclub.com.ar
                 </a>
               </li>
               <li>
