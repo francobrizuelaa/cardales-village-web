@@ -19,51 +19,61 @@ export function GallerySection() {
   ]
 
   const images = [
+    /*
     {
       src: "/placeholder.svg?height=400&width=600",
       alt: "Vista aérea del barrio",
       category: "aereas",
     },
+    */
     {
-      src: "/placeholder.svg?height=400&width=600",
+      src: "/images/pileta.jpg",
       alt: "Piscina principal",
       category: "amenities",
     },
+    /*
     {
       src: "/placeholder.svg?height=400&width=600",
       alt: "Parque central",
       category: "naturaleza",
     },
+    */
     {
-      src: "/placeholder.svg?height=400&width=600",
-      alt: "Casa tipo del barrio",
-      category: "casas",
+      src: "/images/tenis.jpg",
+      alt: "Cancha de tenis",
+      category: "aereas",
     },
     {
-      src: "/placeholder.svg?height=400&width=600",
+      src: "/images/piletahouse.jpg",
       alt: "Club house",
       category: "amenities",
     },
+    /*
     {
       src: "/placeholder.svg?height=400&width=600",
       alt: "Atardecer en el barrio",
       category: "naturaleza",
     },
+    */
+    /*
     {
       src: "/placeholder.svg?height=400&width=600",
       alt: "Acceso principal",
       category: "aereas",
     },
+    */
     {
-      src: "/placeholder.svg?height=400&width=600",
-      alt: "Residencia con jardín",
-      category: "casas",
+      src: "/images/futbol.jpg",
+      alt: "Cancha de futbol",
+      category: "aereas",
     },
+    /*
     {
       src: "/placeholder.svg?height=400&width=600",
       alt: "Gimnasio",
       category: "amenities",
     },
+    */
   ]
 
   const filteredImages = activeCategory === "todas" ? images : images.filter((img) => img.category === activeCategory)

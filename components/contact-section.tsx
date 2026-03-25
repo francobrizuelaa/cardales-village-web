@@ -40,8 +40,8 @@ export function ContactSection() {
     {
       icon: Mail,
       title: "Email",
-      content: "info@cardalesvillage.com.ar",
-      action: "mailto:info@cardalesvillage.com.ar",
+      content: "Administracion@cardalesvillageclub.com.ar",
+      action: "mailto:Administracion@cardalesvillageclub.com.ar",
     },
     {
       icon: MapPin,
