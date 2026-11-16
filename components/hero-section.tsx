@@ -18,11 +18,11 @@ export function HeroSection() {
           loop
           muted
           playsInline
-          poster="/videos/segundodron.MP4"
+          poster="/videos/segundodron.mp4"
           className="absolute inset-0 w-full h-full object-cover -z-10 object-bottom"
         >
           {/* Replace the src below with your actual video file */}
-          <source src="/videos/segundodron.MP4" type="video/mp4" />
+          <source src="/videos/segundodron.mp4" type="video/mp4" />
         </video>
         {/* Dark overlay for text legibility */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
